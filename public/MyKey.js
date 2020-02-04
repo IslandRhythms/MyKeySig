@@ -123,7 +123,7 @@ var access_token = params.access_token,
         function Print(king,prince,tie)
         {
           var Letters = ["C","C#/Db","D","D#/Eb","E","F","F#/Gb","G","G#/Ab","A","A#/Bb","B"];
-          var Lettercase = ["minor","major"];
+          var Lettercase = ["minor","Major"];
           
           if(tie == 0)
           return document.getElementById("Results").innerHTML = "Your favorite key according to this playlist is "+Letters[king.key]+Lettercase[king.mode];

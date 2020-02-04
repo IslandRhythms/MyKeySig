@@ -1,20 +1,101 @@
 html{
-    background-image: url("Mykey.jpg");
-    background-position: center;
+    background-image: url("mykeysig_BGidea.png");
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    width: auto;
-    margin:0;
-    padding:0;
-    background-attachment: fixed;
+    background-attachment:fixed; 
     line-height: 1.5;
-   
+   background-clip: border-box;
+   overflow: visible;
+   margin:0;
+   padding:0;
+   width:100%;
+   height:100%;
+   display: table;
 }
 body{
     background-color: transparent;
+    padding-right: 200px;
+    display:table;
+    width:100%;
 }
 
 p{
-    color:black;
+    color: teal;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    width: 75px;
+    height:15px;
+}
+button{
+    width: 50px;
+    font-size: smaller;
+    font-stretch: condensed;
+}
+#playlist{
+    /* changing to relative keeps it in the same position when resizing, but causes there to be white space when scrolling
+    Maybe create a box around that area that doesn't move?*/
+    position:relative;
+    top: 250px;
+    left: 640px;
+    width: auto;
+    overflow: visible;
+    display:table;
+}
+
+
+label[for = "title"]{
+    color: teal;
+    font-size:12px;
+}
+
+#single{
+    position: relative;
+    top:100px;
+    left:1025px;
+    width: auto;
+    display:table;
+}
+
+#group{
+    position:relative;
+    top:-35px;
+    left:75px;
+    width:auto;
+    display:table;
+}
+#Results{
+    position: relative;
+    top:-85px;
+    left:750px;
+    padding-right:600px;
+    padding-left:450px;
+    color: lawngreen;
+}
+
+#Thanks{
+    position:relative;
+    color:lawngreen;
+    top:350px;
+    font-size:large
+}
+
+#artist{
+    position: relative;
+    top:365px;
+    left:150px;
+    font-size:large;
+
+}
+
+#Twitter{
+    position: relative;
+    top: 365px;
+    left: 200px;
+    font-size:large;
 }
