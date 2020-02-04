@@ -14,7 +14,7 @@ function MyAlbum(){
                 'Authorization': 'Bearer ' + access_token
               },
               success: function(response) {
-                Result(response);
+                Execute(response);
               },
               dataType:"json"
 
