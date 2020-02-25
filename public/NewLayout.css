@@ -1,0 +1,34 @@
+html{
+    background-image: url("mykeysig_BGideaAlt.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll; 
+    line-height: 1.5;
+   background-clip: border-box;
+   overflow: visible;
+   margin:0;
+   padding:0;
+   width:100%;
+   height:100%;
+   display:grid;
+}
+
+body{
+    background-color: transparent;
+    color: turquoise;
+    display:grid;
+}
+#Results{
+    color:lawngreen;
+    max-width:250px;
+
+}
+input{
+    width: 50%;
+}
+#Modify{
+max-width:400px;
+}
+
+
